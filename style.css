@@ -1,0 +1,28 @@
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: antiquewhite;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 100px;
+    border-radius: 10px;
+    
+}
+#card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: aliceblue;
+    color: brown;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 100px;
+    border-radius: 10px;
+    
+
+}
+#itemInput{
+width: 300px;
+
+}
