@@ -1,4 +1,4 @@
-.card1{
+/* .card1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   background-color: antiquewhite;
     height: 600px;
@@ -8,21 +8,100 @@
     padding-left: 100px;
     border-radius: 10px;
     
-}
+} */
 #card2{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: aliceblue;
+   background-color:aliceblue;
     color: brown;
     height: 400px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 200px;
-    margin-left: 100px;
+    margin-left: 200px;
     border-radius: 10px;
     
 
 }
 #itemInput{
-width: 300px;
+width: 600px;
+height: 30px;
+justify-content: center;
+
+}
+
+.list-item{
+display: flex;
+justify-content: space-between;
+width: 70%;
+margin-top: 20px;
+
+}
+
+
+.list-item span{
+display: flex;
+margin-left:250px;
+width: 800px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+background-color: azure;
+align-content: flex-start;
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  #card2{
+    margin-left: 100px;
+    width:600px
+  
+    }  
+
+    #itemInput{
+      width: 400px;
+      
+      
+      }
+      
+
+      .list-item span{
+        
+        margin-left:50px;
+        width: 800px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: azure;
+        align-content: flex-start;
+        
+        }
+        
+
+}
+
+
+@media (max-width: 1024px) {
+  #card2{
+    margin-left: 100px;
+    width: 800px;px
+  
+    }  
+
+    #itemInput{
+      width: 500px;
+      
+      
+      }
+      
+
+      .list-item span{
+        
+        margin-left:100px;
+        width: 800px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: azure;
+        align-content: flex-start;
+        
+        }     
 
 }
